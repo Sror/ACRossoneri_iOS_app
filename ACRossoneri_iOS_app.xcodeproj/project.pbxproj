@@ -25,6 +25,8 @@
 		540496941798C62C00DD95FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 540496921798C62C00DD95FE /* InfoPlist.strings */; };
 		540496961798C62C00DD95FE /* ACRossoneri_iOS_appTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 540496951798C62C00DD95FE /* ACRossoneri_iOS_appTests.h */; };
 		540496981798C62C00DD95FE /* ACRossoneri_iOS_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540496971798C62C00DD95FE /* ACRossoneri_iOS_appTests.m */; };
+		540496A21798C69E00DD95FE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 540496A11798C69E00DD95FE /* Default.png */; };
+		540496A41798C6A700DD95FE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 540496A31798C6A700DD95FE /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,25 +44,27 @@
 		540496611798C62C00DD95FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		540496631798C62C00DD95FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		540496651798C62C00DD95FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		540496691798C62C00DD95FE /* ACRossoneri_iOS_app-Info.plist */ = {isa = PBXFileReference; path = "ACRossoneri_iOS_app-Info.plist"; sourceTree = "<group>"; };
+		540496691798C62C00DD95FE /* ACRossoneri_iOS_app-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACRossoneri_iOS_app-Info.plist"; sourceTree = "<group>"; };
 		5404966B1798C62C00DD95FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5404966D1798C62C00DD95FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5404966F1798C62C00DD95FE /* ACRossoneri_iOS_app-Prefix.pch */ = {isa = PBXFileReference; path = "ACRossoneri_iOS_app-Prefix.pch"; sourceTree = "<group>"; };
-		540496701798C62C00DD95FE /* ACRossoneri_iOS_appAppDelegate.h */ = {isa = PBXFileReference; path = ACRossoneri_iOS_appAppDelegate.h; sourceTree = "<group>"; };
+		5404966F1798C62C00DD95FE /* ACRossoneri_iOS_app-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACRossoneri_iOS_app-Prefix.pch"; sourceTree = "<group>"; };
+		540496701798C62C00DD95FE /* ACRossoneri_iOS_appAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACRossoneri_iOS_appAppDelegate.h; sourceTree = "<group>"; };
 		540496711798C62C00DD95FE /* ACRossoneri_iOS_appAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACRossoneri_iOS_appAppDelegate.m; sourceTree = "<group>"; };
 		540496741798C62C00DD95FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		540496761798C62C00DD95FE /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		540496761798C62C00DD95FE /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		540496771798C62C00DD95FE /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		540496791798C62C00DD95FE /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		540496791798C62C00DD95FE /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		5404967A1798C62C00DD95FE /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		5404967D1798C62C00DD95FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		540496801798C62C00DD95FE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
 		540496871798C62C00DD95FE /* ACRossoneri_iOS_appTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACRossoneri_iOS_appTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		540496881798C62C00DD95FE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		540496911798C62C00DD95FE /* ACRossoneri_iOS_appTests-Info.plist */ = {isa = PBXFileReference; path = "ACRossoneri_iOS_appTests-Info.plist"; sourceTree = "<group>"; };
+		540496911798C62C00DD95FE /* ACRossoneri_iOS_appTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ACRossoneri_iOS_appTests-Info.plist"; sourceTree = "<group>"; };
 		540496931798C62C00DD95FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		540496951798C62C00DD95FE /* ACRossoneri_iOS_appTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACRossoneri_iOS_appTests.h; sourceTree = "<group>"; };
 		540496971798C62C00DD95FE /* ACRossoneri_iOS_appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACRossoneri_iOS_appTests.m; sourceTree = "<group>"; };
+		540496A11798C69E00DD95FE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		540496A31798C6A700DD95FE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,8 @@
 		540496521798C62C00DD95FE = {
 			isa = PBXGroup;
 			children = (
+				540496A31798C6A700DD95FE /* Default@2x.png */,
+				540496A11798C69E00DD95FE /* Default.png */,
 				540496671798C62C00DD95FE /* ACRossoneri_iOS_app */,
 				5404968F1798C62C00DD95FE /* ACRossoneri_iOS_appTests */,
 				540496601798C62C00DD95FE /* Frameworks */,
@@ -239,6 +245,8 @@
 				540496751798C62C00DD95FE /* MainWindow.xib in Resources */,
 				5404967E1798C62C00DD95FE /* FirstView.xib in Resources */,
 				540496811798C62C00DD95FE /* SecondView.xib in Resources */,
+				540496A21798C69E00DD95FE /* Default.png in Resources */,
+				540496A41798C6A700DD95FE /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +400,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ACRossoneri_iOS_app/ACRossoneri_iOS_app-Prefix.pch";
 				INFOPLIST_FILE = "ACRossoneri_iOS_app/ACRossoneri_iOS_app-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,6 +412,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ACRossoneri_iOS_app/ACRossoneri_iOS_app-Prefix.pch";
 				INFOPLIST_FILE = "ACRossoneri_iOS_app/ACRossoneri_iOS_app-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
